@@ -1,0 +1,33 @@
+.user-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.user-list-item__avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-list-item__name {
+    flex: 1;
+    font-weight: 500;
+}
+
+.user-list-item__delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-list-item__delete-button:hover {
+    background-color: #d32f2f;
+}
